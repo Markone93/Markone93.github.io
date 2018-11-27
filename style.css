@@ -91,12 +91,12 @@ display: -ms-flexbox; /* IE10 */
     color: white;
 }
 
-/* Centered text */
+/* Centered logo */
 .centered {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -30%);
     color: #008000;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 20px;
@@ -205,4 +205,19 @@ display: -ms-flexbox; /* IE10 */
 .und:hover{
 color: gray;
 cursor: pointer;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main {
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 0px; /* Some padding */
 }
