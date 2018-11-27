@@ -112,6 +112,7 @@ display: -ms-flexbox; /* IE10 */
 
 .side {
     cursor: pointer;
+    overflow: scroll;
 }
 
 /* Slideshow container */
