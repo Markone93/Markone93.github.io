@@ -96,7 +96,7 @@ display: -ms-flexbox; /* IE10 */
 /* Centered logo */
 .centered {
     position: absolute;
-    top: 35%;
+    top: 20%;
     left: 46%;
     transform: scale(1.5, 1.5);
     color: #008000;
