@@ -9,84 +9,6 @@ body {
     background: #f1f1f1;
 }
 
-/* Header/Blog Title */
-.header {
-    padding: 0px;
-    text-align: center;
-    background: #1abc9c;
-    color:white;
-}
-
-/* Increase the font size of the heading */
-.header h1 {
-    font-size: 40px;
-}
-
-/* Style the top navigation bar */
-.topnav {
-    overflow: hidden;
-    background-color: #333;
-}
-
-/* Style the topnav links */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 30px;
-    text-decoration: none;
-    border-right: 1px solid #bbb;
-    border-left: 1px solid #bbb;
-}
-
-/* Change color on hover */
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-}
-
-
-/* Footer */
-.footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-}
-
- /* Container holding the image and the text */
-.container {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-/* Centered logo */
-.centered {
-    position: absolute;
-    top: 20%;
-    left: 46%;
-    transform: scale(1.5, 1.5);
-    color: #008000;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 20px;
-
-}
-/*  social icons */
-.social {
-    padding: 10px;
-    cursor: pointer;
-}
-
-.und:hover{
-color: gray;
-cursor: pointer;
-}
-
-.active {
-    background-color: #4CAF50;
-}
-
 /* Style inputs */
 input[type=text], select, textarea {
     width: 100%;
@@ -98,7 +20,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #0171bb;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -106,7 +28,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #49c2b8;
 }
 
 /* Style the container/contact section */
