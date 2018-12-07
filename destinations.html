@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 0%; /* IE10 */
+    flex: 0%;
+    max-width: 33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="head">
+  <h1> Image Grid</h1>
+  <p>Destinations grid</p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="rome.jpg" style="width:100%">
+    <img src="tokyo.jpg" style="width:100%">
+    <img src="paris.jpg" style="width:100%">
+    <img src="istanbul.jpg" style="width:100%">
+    <img src="reykjavik.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="prague.jpg" style="width:100%">
+    <img src="rio.jpg" style="width:100%">
+    <img src="machu.jpg" style="width:100%">
+    <img src="hongkong.jpg" style="width:100%">
+    <img src="sydney.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="santorini.jpg" style="width:100%">
+    <img src="dubai.jpg" style="width:100%">
+    <img src="london.jpg" style="width:100%">
+    <img src="barcellona.jpg" style="width:100%">
+    <img src="newyork.jpg" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
