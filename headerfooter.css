@@ -72,6 +72,9 @@
     cursor: pointer;
 }
 
+.social:hover {
+    opacity:0.5;
+}
 .und:hover{
 color: gray;
 cursor: pointer;
