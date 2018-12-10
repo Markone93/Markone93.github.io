@@ -9,31 +9,22 @@ body {
     background: #f1f1f1;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
+
 .main {   
-     -ms-flex: 70%; /* IE10 */
-   flex:70%;
-background-color: white;
+    -ms-flex: 70%; 
+    flex:70%;
+    background-color: white;
     padding: 20px;
 }
 
-/* Right column */
+
 .side {
-    -ms-flex: 30%; /* IE10 */
+    -ms-flex: 30%; 
     flex: 30%;   
-     background-color: #f1f1f1;
+    background-color: #f1f1f1;
     padding: 20px;
     padding-left: 20px;
 }
-
-/* Fake image */
-.fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-}
-
 
 .row {  
 display: -ms-flexbox; /* IE10 */
@@ -42,8 +33,6 @@ display: -ms-flexbox; /* IE10 */
   flex-wrap: wrap;
   }
 
-
-/*  social icons */
 .social {
     padding: 10px;
     cursor: pointer;
@@ -54,19 +43,16 @@ display: -ms-flexbox; /* IE10 */
     overflow: scroll;
 }
 
-/* Slideshow container */
 .slideshow-container {
   max-width: 1080px;
   position: relative;
   margin: 16px;
 }
 
-/* Hide the images by default */
 .mySlides {
   display: none;
 }
 
-/* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
   position: absolute;
@@ -82,18 +68,15 @@ display: -ms-flexbox; /* IE10 */
   user-select: none;
 }
 
-/* Position the "next button" to the right */
 .next {
   right: 0px;
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
   background-color: rgba(0,0,0,0.8);
 }
 
-/* Caption text */
 .text {
   color: #f2f2f2;
   font-size: 60px;
@@ -108,7 +91,6 @@ display: -ms-flexbox; /* IE10 */
 
 .imglink {cursor:pointer;}
 
-/* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
@@ -124,7 +106,6 @@ display: -ms-flexbox; /* IE10 */
   background-color: #0171BB;
 }
 
-/* Fading animation */
 .fade {
   -webkit-animation-name: fade;
   -webkit-animation-duration: 1.5s;
@@ -140,20 +121,5 @@ display: -ms-flexbox; /* IE10 */
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
-}
-
-/* Create two unequal columns that sits next to each other */
-/* Sidebar/left column */
-.side {
-    flex: 30%; /* Set the width of the sidebar */
-    background-color: #f1f1f1; /* Grey background color */
-    padding: 20px; /* Some padding */
-}
-
-/* Main column */
-.main {
-    flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
-    padding: 0px; /* Some padding */
 }
 

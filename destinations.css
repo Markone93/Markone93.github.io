@@ -60,7 +60,6 @@ body {
   cursor:pointer;
 }
 
-/* Create four equal columns that sits next to each other */
 .column {
     -ms-flex: 0%; /* IE10 */
     flex: 0%;
@@ -73,4 +72,3 @@ body {
     vertical-align: middle;
 }
 
-}

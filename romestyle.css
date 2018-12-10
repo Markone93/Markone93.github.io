@@ -9,20 +9,17 @@ body {
     background: #f1f1f1;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
 .main {   
-     -ms-flex: 75%; /* IE10 */
-   flex:75%;
-background-color: white;
+    -ms-flex: 75%; 
+    flex:75%;
+    background-color: white;
     padding: 20px;
 }
 
-/* Right column */
 .side {
-    -ms-flex: 25%; /* IE10 */
+    -ms-flex: 25%; 
     flex: 25%;   
-     background-color: #f1f1f1;
+    background-color: #f1f1f1;
     padding: 20px;
     padding-left: 20px;
     cursor: pointer;
@@ -31,11 +28,11 @@ background-color: white;
 
 
 .row {  
-display: -ms-flexbox; /* IE10 */
-  display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  flex-wrap: wrap;
-  }
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
 
 .image {
     float: left;

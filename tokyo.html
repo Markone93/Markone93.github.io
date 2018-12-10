@@ -1,100 +1,66 @@
+
+
 <!DOCTYPE html>
 <html>
-<head>
-<title>Tokyo</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="romestyle.css">
-<link rel="stylesheet" type="text/css" href="headerfooter.css">
-<link rel="ICON" href="favicon.ico" type="image/ico" />
-</head>
-<body>
-
-<div class="header">
-
-  <div class="container">
-    <img src="travel.png" alt="travel" style="width:100%;height:30%;">
-    <div class="centered">  
-    <img src="OG Travel logo.png" alt="logo" >
-    </div>
-  </div> 
-</div>
-
-<div class="topnav">
-  <a href="index.html" class="active">Home</a>
-  <a href="destinations.html">Destinations</a>
-  <a href="deals.html">Deals</a>
-  <a href="about.html" style="float:right">About us</a>
-  <a href="contacts.html" style="float:right">Contacts</a>
-</div>
-
-
-<div class="row">
-  <div class="side">
-  <h1>Packages</h1>
-  <p class="und"> <img src="airplane.png" height="15%" width="15%"align="center" style="margin:10px" class="logo">Flights and transportation</p>
-  <p class="und"> <img src="hotel.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> Accomodation</p>
-  <p class="und"> <img src="tag.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> Activities and tours</p>
-  <p class="und"> <img src="allinclusive.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> All inclusive</p>
-  </div>
-  <div class="main">
-<h1> Tokyo </h1>
-    <img src="tokyo.jpg" height="auto" width="50%" class="image">
-     
-
-      <p>Tōkyō (東京) is the capital of Japan. At over 13 million people in the official metropolitan area alone, Tokyo is the core of the most populated urban area in the world, Tokyo Metropolis (which has a population of over 37 million people). This huge, wealthy and fascinating metropolis brings high-tech visions of the future side by side with glimpses of old Japan, and has something for everyone. </p>
-
-<p>Tokyo is vast: it's best thought of not as a single city, but a constellation of cities that have grown together. Tokyo's districts vary wildly by character, from the electronic blare of Akihabara to the Imperial gardens and shrines of Chiyoda, from the hyperactive youth culture Mecca of Shibuya to the pottery shops and temple markets of Asakusa. If you don't like what you see, hop on the train and head to the next station, and you will find something entirely different.</p>
-
-<p>The sheer size and frenetic pace of Tokyo can intimidate the first-time visitor. Much of the city is a jungle of concrete and wires, with a mass of neon and blaring loudspeakers. At rush hour, crowds jostle in packed trains and masses of humanity sweep through enormous and bewilderingly complex stations. Don't get too hung up on ticking tourist sights off your list: for most visitors, the biggest part of the Tokyo experience is just wandering around at random and absorbing the vibe, poking your head into shops selling weird and wonderful things, sampling restaurants where you can't recognize a single thing on the menu (or on your plate), and finding unexpected oases of calm in the tranquil grounds of a neighbourhood Shinto shrine. It's all perfectly safe, and the locals will go to sometimes extraordinary lengths to help you if you just ask.</p>
-  </div> 
-  </div> 
-
-<div class="footer">
-  <p><PRE><a href="terms.html"><u class="und">Terms and conditions</u></a>     |     <a href="privacy.html"><u class="und">Privacy</u></a>     |     <a href="privacy.html/#cookie"><u class="und">Cookie Policy</u></PRE></p></a>
-  <p> 
-  © OG Travel Ltd 2005-2018. All rights reserved
-  </p>
- <a href="https://www.facebook.com">
-  <img class="social" src="facebook.png" alt="face">
- </a>
- <a href="https://www.instagram.com">
-  <img class="social" src="instagram.png" alt="insta">
- </a>
-  <img class="social" src="sharethis.png" alt="share">
- <a href="https://www.twitter.com">
-  <img class="social" src="twitter.png" alt="twitt">
- </a>
-</div>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
-</body>
+   <head>
+      <title>Tokyo</title>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="romestyle.css">
+      <link rel="stylesheet" type="text/css" href="headerfooter.css">
+      <link rel="ICON" href="favicon.ico" type="image/ico" />
+   </head>
+   <body>
+      <div class="header">
+         <div class="container">
+            <img src="travel.png" alt="travel" style="width:100%;height:30%;">
+            <div class="centered">  
+               <img src="OG Travel logo.png" alt="logo" >
+            </div>
+         </div>
+      </div>
+      <div class="topnav">
+         <a href="index.html" class="active">Home</a>
+         <a href="destinations.html">Destinations</a>
+         <a href="deals.html">Deals</a>
+         <a href="about.html" style="float:right">About us</a>
+         <a href="contacts.html" style="float:right">Contacts</a>
+      </div>
+      <div class="row">
+         <div class="side">
+            <h1>Packages</h1>
+            <p class="und"> <img src="airplane.png" height="15%" width="15%"align="center" style="margin:10px" class="logo">Flights and transportation</p>
+            <p class="und"> <img src="hotel.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> Accomodation</p>
+            <p class="und"> <img src="tag.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> Activities and tours</p>
+            <p class="und"> <img src="allinclusive.png" height="15%" width="15%"align="center" style="margin:10px" class="logo"> All inclusive</p>
+         </div>
+         <div class="main">
+            <h1> Tokyo </h1>
+            <img src="tokyo.jpg" height="auto" width="50%" class="image">
+            <p>Tōkyō (東京) is the capital of Japan. At over 13 million people in the official metropolitan area alone, Tokyo is the core of the most populated urban area in the world, Tokyo Metropolis (which has a population of over 37 million people). This huge, wealthy and fascinating metropolis brings high-tech visions of the future side by side with glimpses of old Japan, and has something for everyone. </p>
+            <p>Tokyo is vast: it's best thought of not as a single city, but a constellation of cities that have grown together. Tokyo's districts vary wildly by character, from the electronic blare of Akihabara to the Imperial gardens and shrines of Chiyoda, from the hyperactive youth culture Mecca of Shibuya to the pottery shops and temple markets of Asakusa. If you don't like what you see, hop on the train and head to the next station, and you will find something entirely different.</p>
+            <p>The sheer size and frenetic pace of Tokyo can intimidate the first-time visitor. Much of the city is a jungle of concrete and wires, with a mass of neon and blaring loudspeakers. At rush hour, crowds jostle in packed trains and masses of humanity sweep through enormous and bewilderingly complex stations. Don't get too hung up on ticking tourist sights off your list: for most visitors, the biggest part of the Tokyo experience is just wandering around at random and absorbing the vibe, poking your head into shops selling weird and wonderful things, sampling restaurants where you can't recognize a single thing on the menu (or on your plate), and finding unexpected oases of calm in the tranquil grounds of a neighbourhood Shinto shrine. It's all perfectly safe, and the locals will go to sometimes extraordinary lengths to help you if you just ask.</p>
+         </div>
+      </div>
+      <div class="footer">
+         <p>
+         <PRE><a href="terms.html"><u class="und">Terms and conditions</u></a>     |     <a href="privacy.html"><u class="und">Privacy</u></a>     |     <a href="privacy.html/#cookie"><u class="und">Cookie Policy</u></PRE>
+         </p></a>
+         <p> 
+            © OG Travel Ltd 2005-2018. All rights reserved
+         </p>
+         <a href="https://www.facebook.com">
+         <img class="social" src="facebook.png" alt="face">
+         </a>
+         <a href="https://www.instagram.com">
+         <img class="social" src="instagram.png" alt="insta">
+         </a>
+         <img class="social" src="sharethis.png" alt="share">
+         <a href="https://www.twitter.com">
+         <img class="social" src="twitter.png" alt="twitt">
+         </a>
+      </div>
+   </body>
 </html>
+
 
