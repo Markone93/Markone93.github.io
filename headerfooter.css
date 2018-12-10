@@ -51,7 +51,6 @@
     position: absolute;
     top: 20%;
     left: 46%;
-    transform: scale(1.5, 1.5);
     color: #0171BB;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 20px;
